@@ -1,3 +1,4 @@
+/// OBJETO
 class Humano {
     constructor(nome, dataNascimento, corPele)
     {
@@ -6,7 +7,7 @@ class Humano {
         this.corPele = corPele;
     }
 }
-
+/// NOVA INSTANCIA
 let homem = new Humano('mario',1980, 'branco');
 
 console.log(homem);
